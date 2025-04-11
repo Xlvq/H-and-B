@@ -1,4 +1,4 @@
-// /scripts/api.js
+// /scripts/api.js/
 const API_BASE = 'http://localhost:8000/api'; // подставим позже env или прод-адрес
 
 const api = axios.create({

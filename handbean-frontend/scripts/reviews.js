@@ -1,4 +1,4 @@
-// /scripts/reviews.js
+// /scripts/reviews.js/
 import { reviewAPI } from './api.js';
 
 const container = document.getElementById('reviews-container');

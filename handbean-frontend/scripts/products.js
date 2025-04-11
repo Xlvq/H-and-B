@@ -1,4 +1,4 @@
-// /scripts/products.js
+// /scripts/products.js/
 import { productAPI } from './api.js';
 
 const productList = document.getElementById('product-list');
@@ -28,5 +28,6 @@ async function loadProducts() {
         console.error('Ошибка загрузки каталога:', err);
     }
 }
+
 
 document.addEventListener('DOMContentLoaded', loadProducts);

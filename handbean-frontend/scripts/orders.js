@@ -1,5 +1,5 @@
 
-// /scripts/orders.js
+// /scripts/orders.js/
 import { orderAPI } from './api.js';
 
 const orderContainer = document.getElementById('orders-container');

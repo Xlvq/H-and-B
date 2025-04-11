@@ -1,4 +1,4 @@
-// /scripts/auth.js
+// /scripts/auth.js/
 import { authAPI } from './api.js';
 
 const tokenKey = 'hb_token';
