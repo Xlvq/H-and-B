@@ -1,0 +1,23 @@
+<template id="product-card-template">
+    <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img class="w-full h-60 object-cover" />
+        <div class="p-4">
+            <h4 class="text-xl font-semibold title"></h4>
+            <p class="text-sm text-gray-600 mt-2 desc"></p>
+            <div class="flex justify-between items-center mt-4">
+                <span class="font-bold text-brown-700 price"></span>
+                <form action="https://yoomoney.ru/quickpay/confirm.xml" method="POST" target="_blank">
+                    <input type="hidden" name="receiver" value="ВАШ_КОШЕЛЕК" />
+                    <input type="hidden" name="formcomment" class="title-input" />
+                    <input type="hidden" name="short-dest" class="title-input" />
+                    <input type="hidden" name="label" class="title-input" />
+                    <input type="hidden" name="quickpay-form" value="shop" />
+                    <input type="hidden" name="targets" class="title-input" />
+                    <input type="hidden" name="sum" class="price-input" />
+                    <input type="hidden" name="paymentType" value="AC" />
+                    <button class="bg-brown-600 text-white px-4 py-2 rounded-lg hover:bg-brown-700" type="submit">Купить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</template>

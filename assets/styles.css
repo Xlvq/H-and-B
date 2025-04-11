@@ -1,0 +1,30 @@
+:root {
+    --brown-600: #8b5e3c;
+    --brown-700: #6b4229;
+    --beige: #f8f1e5;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: var(--beige);
+}
+
+.auth-container, .profile-container, .admin-panel {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+}
+
+button {
+    background-color: var(--brown-600);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--brown-700);
+}
